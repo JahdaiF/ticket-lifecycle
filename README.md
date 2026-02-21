@@ -29,31 +29,37 @@ This tutorial outlines the entire lifecycle of a support ticket, from the moment
 
 ### Support Scenario 1: Critical Banking System Outage
 
-**The Intake (End User)** Our first simulation begins with **Karen (Karen@gmail.com)** reporting a high-priority issue. She submits a ticket through the portal stating that the "Entire mobile/online banking system is down."
+1. **The Intake (End User):** Our first simulation begins with **Karen (Karen@gmail.com)** reporting a high-priority issue. She submits a ticket through the portal stating that the "Entire mobile/online banking system is down."
 
 
 
-**The Agent Review (John)** Logging in as **John**, we first perform a review of the ticket. At this stage, we observe the default details—specifically the Priority and SLA—assigned by the system based on the Help Topic Karen selected.
+2. **The Agent Review (John):** Logging in as **John**, we first perform a review of the ticket. At this stage, we observe the default details—specifically the Priority and SLA—assigned by the system based on the Help Topic Karen selected.
 
-**The Escalation** To ensure the issue is handled within the proper timeframe, John manually upgrades the ticket to a **Sev-A (1 hour, 24/7)** SLA and reassigns it to the **Online Banking** department. 
+3. **The Escalation:** To ensure the issue is handled within the proper timeframe, John manually upgrades the ticket to a **Sev-A (1 hour, 24/7)** SLA and reassigns it to the **Online Banking** department. 
 
-**Permission Check** A key observation in this step is the system's "disappearing" act: once the ticket is moved to a department where John lacks membership, he can no longer access the record. This ensures that sensitive department-specific data remains siloed. **Jane** (the SysAdmin) then steps in to resolve the outage and close the ticket.
+4. **Permission Check:** A key observation in this step is the system's "disappearing" act: once the ticket is moved to a department where John lacks membership, he can no longer access the record. 
+
+5. **Resolution:** **Jane** (the SysAdmin) then steps in to resolve the outage and close the ticket.
 
 ---
 
 ### Support Scenario 2: Routine Software Request
 
-**The Submission** **Ken (Ken@gmail.com)** submits a request regarding the accounting department’s need for an **Adobe upgrade**, noting that the current installation is non-functional.
+1. **The Submission:** **Ken (Ken@gmail.com)** submits a request regarding the accounting department’s need for an **Adobe upgrade**, noting that the current installation is non-functional.
 
-**The Workflow** John identifies this as a standard software support task. He classifies the ticket under a **Sev-B (4 hours, 24/7)** SLA and assigns it to the **Support** department. Because this falls within his area of responsibility, John manages the communication and works the ticket until it is successfully closed.
+2. **The Workflow:** John identifies this as a standard software support task. He classifies the ticket under a **Sev-B (4 hours, 24/7)** SLA and assigns it to the **Support** department. 
+
+3. **Resolution:** Because this falls within his area of responsibility, John manages the communication and works the ticket until it is successfully closed.
 
 ---
 
 ### Support Scenario 3: Executive Hardware Support
 
-**The Incident** **Karen** returns to the portal to report a hardware failure: the **CFO's laptop** will no longer power on. 
+1. **The Incident:** **Karen** returns to the portal to report a hardware failure: the **CFO's laptop** will no longer power on. 
 
-**The Triage** John reviews the ticket and applies a **Sev-B** SLA. Even though the user is an executive, the hardware repair falls under standard support procedures. John retains ownership of the ticket, performs the necessary coordination, and documents the resolution.
+2. **The Triage:** John reviews the ticket and applies a **Sev-B** SLA. Even though the user is an executive, the hardware repair falls under standard support procedures. 
+
+3. **Resolution:** John retains ownership of the ticket, performs the necessary coordination, and documents the resolution.
 
 ---
 
@@ -64,7 +70,7 @@ To truly understand **Role-Based Access Control (RBAC)**, we performed a deliber
 **Restoring Access:**
 1. We transitioned to the **Admin Panel** to modify our agent profile.
 2. We granted our account **"View Only"** access to the SysAdmins department.
-3. Upon returning to the **Agent Panel**, we observed that while we could now "see" the escalated tickets, we were still prohibited from making any changes to them. This confirms that visibility and administrative authority are two distinct layers of security in osTicket.
+3. Upon returning to the **Agent Panel**, we observed that while we could now "see" the escalated tickets, we were still prohibited from making any changes to them. 
 
 
 
