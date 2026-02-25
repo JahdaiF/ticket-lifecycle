@@ -30,16 +30,16 @@ The goal of this tutorial is to manage a full-service help desk environment in t
 1. <b>The Issue:</b> A user ("Karen") reported a total outage of the mobile and online banking portal. 
 2. <b>My Action:</b> I logged in as the agent ("John") to triage the ticket. Since this affected all customers, I manually upgraded the ticket to a **Sev-A SLA (1 hour response, 24/7)**. 
 3. <b>The Pivot:</b> I reassigned the ticket to the **Online Banking Department**. 
-4. <b>Key Learning:</b> This tested my **RBAC (Role-Based Access Control)** settings. As soon as I moved the ticket to a department I wasn't part of, I lost visibility of the record—exactly how a secure financial environment should function.
+4. <b>Key Learning:</b> This tested my **RBAC (Role-Based Access Control)** settings. As soon as I moved the ticket to a department I wasn't part of, I lost visibility of the record, exactly how a secure financial environment should function.
 
 <h2>Scenario 2: Departmental Software Request</h2>
-1. <b>The Issue:</b> A user requested an Adobe upgrade for the accounting team, noting the current version was non-functional.
-2. <b>My Action:</b> I classified this as a standard software task under a **Sev-B SLA (4-hour window)** and assigned it to the Support department.
-3. <b>Resolution:</b> Since I had the correct permissions for the "Support" department, I handled the communication and closed the ticket once the software was verified.
+1. <b>The Issue:</b> A user requested an Adobe upgrade for the accounting team, noting the current version was non-functional. <br>
+2. <b>My Action:</b> I classified this as a standard software task under a **Sev-B SLA (4-hour window)** and assigned it to the Support department. <br>
+3. <b>Resolution:</b> Since I had the correct permissions for the "Support" department, I handled the communication and closed the ticket once the software was verified. <br>
 
 <h2>Scenario 3: Executive Hardware Failure</h2>
-1. <b>The Issue:</b> A report that the CFO's laptop would no longer power on.
-2.<b>Triage:</b> Even though it involved an executive, I followed standard hardware protocols. I assigned a **Sev-B SLA** and kept ownership of the ticket to coordinate the repair.
+1. <b>The Issue:</b> A report that the CFO's laptop would no longer power on. <br>
+2. <b>Triage:</b> Even though it involved an executive, I followed standard hardware protocols. I assigned a **Sev-B SLA** and kept ownership of the ticket to coordinate the repair. <br>
 
 
 
