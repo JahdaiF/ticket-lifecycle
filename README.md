@@ -3,14 +3,14 @@
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the entire lifecycle of a support ticket, from the moment an end user reports an issue to its final resolution by the IT team. We will simulate a professional environment by creating tickets as users and then switching roles to manage, escalate, and resolve them as help desk agents.<br />
+The goal of this tutorial is to manage a full-service help desk environment in the cloud. I simulated the entire ticket lifecycle—from end-user reporting to final resolution—using role-based access to manage priorities and department escalations.<br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Remote Desktop (RDP)
 - Internet Information Services (IIS)
-- osTicket
+- osTicket (PHP/MySQL)
 
 <h2>Operating Systems Used </h2>
 
@@ -23,64 +23,36 @@ This tutorial outlines the entire lifecycle of a support ticket, from the moment
 - Working the Issue
 - Resolution
 
+<h2>Real-World Support Scenarios</h2>
+
 <h2>Support Scenario 1:</h2>
 
+#### **Scenario 1: Critical Banking Outage (Sev-A)**
+* **The Issue:** A user ("Karen") reported a total outage of the mobile and online banking portal. 
+* **My Action:** I logged in as the agent ("John") to triage the ticket. Since this affected all customers, I manually upgraded the ticket to a **Sev-A SLA (1 hour response, 24/7)**. 
+* **The Pivot:** I reassigned the ticket to the **Online Banking Department**. 
+* **Key Learning:** This tested my **RBAC (Role-Based Access Control)** settings. As soon as I moved the ticket to a department I wasn't part of, I lost visibility of the record—exactly how a secure financial environment should function.
 
-### Support Scenario 1: Critical Banking System Outage
+#### **Scenario 2: Departmental Software Request**
+* **The Issue:** A user requested an Adobe upgrade for the accounting team, noting the current version was non-functional.
+* **My Action:** I classified this as a standard software task under a **Sev-B SLA (4-hour window)** and assigned it to the Support department.
+* **Resolution:** Since I had the correct permissions for the "Support" department, I handled the communication and closed the ticket once the software was verified.
 
-1. **The Intake (End User):** Our first simulation begins with **Karen (Karen@gmail.com)** reporting a high-priority issue. She submits a ticket through the portal stating that the entire mobile and online banking system is down.
-
-
-
-2. **The Agent Review (John):** Logging in as **John**, we perform an initial review of the ticket. At this stage, we observe the default details, specifically the Priority and SLA, which were assigned by the system based on the Help Topic Karen selected.
-
-3. **The Escalation:** To ensure the issue is handled within the proper timeframe, John manually upgrades the ticket to a **Sev-A (1 hour, 24/7)** SLA and reassigns it to the **Online Banking** department. 
-
-4. **Permission Check:** A key observation in this step is the system's security behavior. Once the ticket is moved to a department where John lacks membership, he can no longer access the record. 
-
-5. **Resolution:** **Jane**, a member of the SysAdmin team, logs in to resolve the outage and close the ticket.
-
----
-
-### Support Scenario 2: Routine Software Request
-
-1. **The Submission:** **Ken (Ken@gmail.com)** submits a request regarding the accounting department’s need for an **Adobe upgrade**, noting that the current installation is non-functional.
-
-2. **The Workflow:** John identifies this as a standard software support task. He classifies the ticket under a **Sev-B (4 hours, 24/7)** SLA and assigns it to the **Support** department. 
-
-3. **Resolution:** Because this task falls within his area of responsibility, John manages the communication and works the ticket until it is successfully closed.
-
----
-
-### Support Scenario 3: Executive Hardware Support
-
-1. **The Incident:** **Karen** returns to the portal to report a hardware failure. She explains that the CFO's laptop will no longer power on. 
-
-2. **The Triage:** John reviews the ticket and applies a **Sev-B** SLA. Even though the user is an executive, the hardware repair falls under standard support procedures. 
-
-3. **Resolution:** John retains ownership of the ticket, performs the necessary coordination, and documents the resolution.
-
----
-
-### Advanced Analysis: Testing Security Boundaries
-
-To understand **Role-Based Access Control (RBAC)**, we performed a deliberate escalation of all active tickets. By moving tickets into the **SysAdmins** department, we confirmed that standard agents lose all visibility and modification rights.
-
-**Restoring Access:**
-1. We transitioned to the **Admin Panel** to modify our agent profile.
-2. We granted our account **"View Only"** access to the SysAdmins department.
-3. Upon returning to the **Agent Panel**, we observed that while we could now see the escalated tickets, we were still prohibited from making any changes to them. 
+#### **Scenario 3: Executive Hardware Failure**
+* **The Issue:** A report that the CFO's laptop would no longer power on.
+* **Triage:** Even though it involved an executive, I followed standard hardware protocols. I assigned a **Sev-B SLA** and kept ownership of the ticket to coordinate the repair.
 
 
 
----
+### Deep Dive: Troubleshooting Security Boundaries
+One of the most important parts of this lab was testing **permissions**. I intentionally tried to "break" the workflow to see how the system responded:
 
-### Professional Summary
+1. **Isolation Test:** I moved all active tickets into the **SysAdmin** department.
+2. **Verification:** I confirmed that as a standard agent, I was completely locked out and could no longer see the tickets.
+3. **Modification:** I went into the **Admin Panel** to give my account "View Only" access to that department. 
+4. **The Result:** I could finally see the escalated tickets again, but the system correctly prevented me from editing them. This confirmed that my permission "layers" were working exactly as intended.
 
-This lab serves as a blueprint for how modern IT departments manage the influx of support requests. By utilizing **Service Level Agreements (SLAs)** and **Departmental Routing**, we ensure that critical outages are prioritized over routine software updates.
 
-#### The "Ticket Everything" Principle
-In a professional setting, "drive-by" requests—where a user catches a technician in the hallway—can derail productivity and leave no audit trail. This lab emphasizes the importance of documentation. If a task is not recorded in a ticket, it does not exist in the eyes of management. Tickets provide the data necessary to justify team growth and identify failing hardware trends.
 
-#### Building Technical Intuition
-Mastery of these platforms comes through repetition. By cycling through these scenarios multiple times, we build the technical pillars and professional muscle memory required to manage a help desk with confidence and precision.
+###  Final Takeaway
+Building this lab taught me that **documentation is the audit trail.** If it isn't in the ticket, it didn't happen. By using SLAs and automated routing, I learned how to prevent "drive-by" requests from derailing a team's productivity and how to ensure critical outages (like a bank going offline) always get eyes on them first.
