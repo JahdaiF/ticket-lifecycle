@@ -27,10 +27,10 @@ The goal of this tutorial is to manage a full-service help desk environment in t
 
 <h2>Support Scenario 1: Critical Banking Outage</h2>
 
-* **The Issue:** A user ("Karen") reported a total outage of the mobile and online banking portal. 
-* **My Action:** I logged in as the agent ("John") to triage the ticket. Since this affected all customers, I manually upgraded the ticket to a **Sev-A SLA (1 hour response, 24/7)**. 
-* **The Pivot:** I reassigned the ticket to the **Online Banking Department**. 
-* **Key Learning:** This tested my **RBAC (Role-Based Access Control)** settings. As soon as I moved the ticket to a department I wasn't part of, I lost visibility of the record—exactly how a secure financial environment should function.
+1. <b>The Issue:</b> A user ("Karen") reported a total outage of the mobile and online banking portal. 
+2. <b>My Action:</b> I logged in as the agent ("John") to triage the ticket. Since this affected all customers, I manually upgraded the ticket to a **Sev-A SLA (1 hour response, 24/7)**. 
+3. <b>The Pivot:</b> I reassigned the ticket to the **Online Banking Department**. 
+4. <b>Key Learning:</b> This tested my **RBAC (Role-Based Access Control)** settings. As soon as I moved the ticket to a department I wasn't part of, I lost visibility of the record—exactly how a secure financial environment should function.
 
 <h2>Scenario 2: Departmental Software Request</h2>
 * **The Issue:** A user requested an Adobe upgrade for the accounting team, noting the current version was non-functional.
