@@ -61,4 +61,4 @@ This lab demonstrates how a structured IT department manages a constant flow of 
 One of the most important takeaways from this project was the necessity of documentation. In a fast-paced environment, direct requests made outside of the ticketing system can easily be forgotten and leave no record for the team. I used this lab to emphasize a "ticket everything" approach. If a task isn't recorded, it doesn't exist for reporting or management purposes. Having this data is what allows a team to identify hardware trends and justify the need for more resources.
 
 #### Building Technical Muscle Memory
-I believe technical intuition comes through repetition. By cycling through these different scenarios—from banking outages to hardware failures—I built the professional muscle memory needed to manage a help desk with confidence and precision.
+I believe technical intuition comes through repetition. By cycling through these different scenarios, from banking outages to hardware failures, I built the professional muscle memory needed to manage a help desk with confidence and precision.
