@@ -53,5 +53,12 @@ One of the most important parts of this lab was testing **permissions**. I inten
 
 
 
-###  Final Takeaway
-Building this lab taught me that **documentation is the audit trail.** If it isn't in the ticket, it didn't happen. By using SLAs and automated routing, I learned how to prevent "drive-by" requests from derailing a team's productivity and how to ensure critical outages (like a bank going offline) always get eyes on them first.
+<h2>Summary and Key Takeaways</h2>
+
+This lab demonstrates how a structured IT department manages a constant flow of support requests. By using <b>Service Level Agreements (SLAs)</b> and <b>Departmental Routing</b>, I was able to ensure that critical outages stayed at the top of the queue while routine software updates were scheduled appropriately.
+
+<b> The "Ticket Everything" Principle </b>
+One of the most important takeaways from this project was the necessity of documentation. In a fast-paced environment, direct requests made outside of the ticketing system can easily be forgotten and leave no record for the team. I used this lab to emphasize a "ticket everything" approach. If a task isn't recorded, it doesn't exist for reporting or management purposes. Having this data is what allows a team to identify hardware trends and justify the need for more resources.
+
+#### Building Technical Muscle Memory
+I believe technical intuition comes through repetition. By cycling through these different scenarios—from banking outages to hardware failures—I built the professional muscle memory needed to manage a help desk with confidence and precision.
