@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-The goal of this tutorial is to manage a full-service help desk environment in the cloud. I simulated the entire ticket lifecycle—from end-user reporting to final resolution—using role-based access to manage priorities and department escalations.<br />
+The goal of this tutorial is to manage a full-service help desk environment in the cloud. I simulated the entire ticket lifecycle, from end-user reporting to final resolution, using role-based access to manage priorities and department escalations.<br />
 
 <h2>Environments and Technologies Used</h2>
 
