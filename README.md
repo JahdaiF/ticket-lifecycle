@@ -34,12 +34,12 @@ The goal of this tutorial is to manage a full-service help desk environment in t
 
 <h2>Scenario 2: Departmental Software Request</h2>
 1. <b>The Issue:</b> A user requested an Adobe upgrade for the accounting team, noting the current version was non-functional. <br>
-2. <b>My Action:</b> I classified this as a standard software task under a **Sev-B SLA (4-hour window)** and assigned it to the Support department. <br>
+2. <b>My Action:</b> I classified this as a standard software task under a <b>Sev-B SLA (4-hour window)</b> and assigned it to the Support department. <br>
 3. <b>Resolution:</b> Since I had the correct permissions for the "Support" department, I handled the communication and closed the ticket once the software was verified. <br>
 
 <h2>Scenario 3: Executive Hardware Failure</h2>
 1. <b>The Issue:</b> A report that the CFO's laptop would no longer power on. <br>
-2. <b>Triage:</b> Even though it involved an executive, I followed standard hardware protocols. I assigned a **Sev-B SLA** and kept ownership of the ticket to coordinate the repair. <br>
+2. <b>Triage:</b> Even though it involved an executive, I followed standard hardware protocols. I assigned a <b>Sev-B SLA</b> and kept ownership of the ticket to coordinate the repair. <br>
 
 
 
