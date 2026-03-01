@@ -47,6 +47,11 @@ The goal of this tutorial is to manage a full-service help desk environment in t
 <img width="1418" height="1189" alt="11" src="https://github.com/user-attachments/assets/a2a2a3d0-7bbf-4b28-8614-d9e254da3c23" />
 <img width="1405" height="1175" alt="13" src="https://github.com/user-attachments/assets/5c1c055e-b382-4ccb-a126-40f761964c42" />
 <img width="1413" height="1205" alt="14" src="https://github.com/user-attachments/assets/3ff184d9-8560-4732-b6d6-4e4753f5e0ea" />
+<img width="1416" height="1180" alt="15" src="https://github.com/user-attachments/assets/221a6da7-599c-45a2-b88e-9c39c9e7605e" />
+<img width="1405" height="1194" alt="16" src="https://github.com/user-attachments/assets/b10cc0a4-8b51-420c-882d-774959328b9e" />
+<img width="1408" height="1202" alt="17" src="https://github.com/user-attachments/assets/1011b9bd-4c96-4282-a78e-02f41afa1666" />
+<img width="1408" height="1188" alt="18" src="https://github.com/user-attachments/assets/a6ee8129-581e-4206-88c9-185e70b39412" />
+<img width="1418" height="1177" alt="19" src="https://github.com/user-attachments/assets/27ee3bc1-cd89-4fc2-8a64-ba2ed34c65e5" />
 
 <h2>Scenario 2: Departmental Software Request</h2>
 1. <b>The Issue:</b> A user requested an Adobe upgrade for the accounting team, stating that the current version was not working properly. <br>
