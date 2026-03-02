@@ -31,7 +31,7 @@ The goal of this tutorial is to manage a full-service help desk environment in t
 <img width="1420" height="1118" alt="1" src="https://github.com/user-attachments/assets/ec6ec06e-0cea-4d2c-8de1-a75c6f0955e5" />
 <img width="1396" height="1149" alt="2" src="https://github.com/user-attachments/assets/9b1bf2b4-28d5-4fac-85ba-32ed3c3a2005" />
 
-2. <b>My Action:</b> I logged in as the agent ("John") to triage the ticket. Since this affected all customers, I manually upgraded the ticket to a <b>Sev-A SLA (1 hour response, 24/7)</b>.
+2. <b>My Action:</b> I logged in as the agent ("John") to triage the ticket. I updated the priority level to <b>Emergency</b> and updated the <b>Help Topic</b> to <b>Report a Problem/Business Critical Outage</b>. Since this affected all customers, I manually upgraded the ticket to a <b>Sev-A SLA (1 hour response, 24/7)</b>.
 <img width="1415" height="1178" alt="3" src="https://github.com/user-attachments/assets/12141786-abfb-4165-85f7-6403829b7b4c" />
 <img width="1417" height="1167" alt="4" src="https://github.com/user-attachments/assets/09fa9b3f-ee5d-4a5b-a770-0ac4d03258e1" />
 <img width="1405" height="1204" alt="5" src="https://github.com/user-attachments/assets/8987a56f-edfd-4bc8-9dbd-4332a16a40b3" />
@@ -40,7 +40,7 @@ The goal of this tutorial is to manage a full-service help desk environment in t
 <img width="1413" height="1184" alt="8" src="https://github.com/user-attachments/assets/312e063d-1ce2-42c6-8f7c-bbc1c91f332b" />
 <img width="1424" height="1180" alt="9" src="https://github.com/user-attachments/assets/c5eb4c5c-c9e7-4d90-b56a-b01062fff95e" />
 
-3. <b>The Pivot:</b> I reassigned the ticket to the **Online Banking Department**.
+3. <b>The Pivot:</b> I reassigned the ticket to the **SysAdmins Department** and to <b>Jane Doe</b>.
 <img width="1397" height="1183" alt="10" src="https://github.com/user-attachments/assets/bf463df6-cceb-40c3-aa5d-5ea022752518" />
 
 4. <b>Key Learning:</b> This tested my **RBAC (Role-Based Access Control)** settings. As soon as I moved the ticket to a department I wasn't part of, I lost access to the record, exactly how a secure financial environment should function.
