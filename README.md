@@ -50,17 +50,17 @@ The goal of this tutorial is to manage a full-service help desk environment in t
 <img width="1554" height="1263" alt="10" src="https://github.com/user-attachments/assets/2f2dd614-45c8-4d8d-be1c-71d4e07e6a6f" />
 <img width="1552" height="1253" alt="11" src="https://github.com/user-attachments/assets/cf09edbe-7928-400d-a476-a7874a4a4565" />
 <img width="1555" height="1270" alt="12" src="https://github.com/user-attachments/assets/bf7514b9-c704-458c-9ed5-3f04951b2746" />
-<img width="1397" height="1183" alt="10" src="https://github.com/user-attachments/assets/bf463df6-cceb-40c3-aa5d-5ea022752518" />
+
 
 4. <b>Key Learning:</b> This tested my **RBAC (Role-Based Access Control)** settings. As soon as I moved the ticket to a department I wasn't part of, I lost access to the record, exactly how a secure financial environment should function.
-<img width="1418" height="1189" alt="11" src="https://github.com/user-attachments/assets/a2a2a3d0-7bbf-4b28-8614-d9e254da3c23" />
-<img width="1405" height="1175" alt="13" src="https://github.com/user-attachments/assets/5c1c055e-b382-4ccb-a126-40f761964c42" />
-<img width="1413" height="1205" alt="14" src="https://github.com/user-attachments/assets/3ff184d9-8560-4732-b6d6-4e4753f5e0ea" />
-<img width="1416" height="1180" alt="15" src="https://github.com/user-attachments/assets/221a6da7-599c-45a2-b88e-9c39c9e7605e" />
-<img width="1405" height="1194" alt="16" src="https://github.com/user-attachments/assets/b10cc0a4-8b51-420c-882d-774959328b9e" />
-<img width="1408" height="1202" alt="17" src="https://github.com/user-attachments/assets/1011b9bd-4c96-4282-a78e-02f41afa1666" />
-<img width="1408" height="1188" alt="18" src="https://github.com/user-attachments/assets/a6ee8129-581e-4206-88c9-185e70b39412" />
-<img width="1418" height="1177" alt="19" src="https://github.com/user-attachments/assets/27ee3bc1-cd89-4fc2-8a64-ba2ed34c65e5" />
+<img width="1554" height="1260" alt="13" src="https://github.com/user-attachments/assets/45dd6191-6bc1-4a0b-aec3-83975a14c309" />
+
+5. <b>Resolve ticket</b>
+<img width="1549" height="1245" alt="16" src="https://github.com/user-attachments/assets/502a17a6-41d1-428b-a96b-b71e412464e3" />
+<img width="1557" height="1364" alt="18" src="https://github.com/user-attachments/assets/deb95f8c-00dd-4b50-b827-5fc411ca8bea" />
+<img width="1553" height="1362" alt="19" src="https://github.com/user-attachments/assets/d7cb757c-b280-4407-bcb4-8c6b000a8e10" />
+<img width="1551" height="1370" alt="20" src="https://github.com/user-attachments/assets/0032e0ff-ddaf-4822-b972-47a44ba68a15" />
+
 
 <h2>Scenario 2: Departmental Software Request</h2>
 1. <b>The Issue:</b> A user requested an Adobe upgrade for the accounting team, stating that the current version was not working properly. <br>
