@@ -33,14 +33,23 @@ The goal of this tutorial is to manage a full-service help desk environment in t
 
 2. <b>My Action:</b> I logged in as the agent ("John") to triage the ticket. I updated the priority level to <b>Emergency</b> and updated the <b>Help Topic</b> to <b>Report a Problem/Business Critical Outage</b>. Since this affected all customers, I manually upgraded the ticket to a <b>Sev-A SLA (1 hour response, 24/7)</b>.
 <img width="1415" height="1178" alt="3" src="https://github.com/user-attachments/assets/12141786-abfb-4165-85f7-6403829b7b4c" />
+
 <img width="1417" height="1167" alt="4" src="https://github.com/user-attachments/assets/09fa9b3f-ee5d-4a5b-a770-0ac4d03258e1" />
-<img width="1405" height="1204" alt="5" src="https://github.com/user-attachments/assets/8987a56f-edfd-4bc8-9dbd-4332a16a40b3" />
-<img width="1413" height="1164" alt="6" src="https://github.com/user-attachments/assets/61874f67-9f55-49d6-9621-dadb2b1eed0a" />
-<img width="1405" height="1204" alt="7" src="https://github.com/user-attachments/assets/b6326973-6f09-4c88-8641-29faf965bcb5" />
-<img width="1413" height="1184" alt="8" src="https://github.com/user-attachments/assets/312e063d-1ce2-42c6-8f7c-bbc1c91f332b" />
-<img width="1424" height="1180" alt="9" src="https://github.com/user-attachments/assets/c5eb4c5c-c9e7-4d90-b56a-b01062fff95e" />
+
+<img width="1550" height="1248" alt="1" src="https://github.com/user-attachments/assets/62ef20aa-eaf5-4603-97de-e1ff00c71d1d" />
+<img width="1550" height="1252" alt="2" src="https://github.com/user-attachments/assets/f8a9cb6a-d2e8-45fe-b8ea-88f9e8485524" />
+<img width="1553" height="1258" alt="3" src="https://github.com/user-attachments/assets/f3c5fc09-ddf9-46f4-9781-ea49b682c1c3" />
+<img width="1555" height="1249" alt="4" src="https://github.com/user-attachments/assets/1f7946fd-04f2-40e2-ba8c-b12e08ba0066" />
+<img width="1558" height="1239" alt="5" src="https://github.com/user-attachments/assets/61e6c031-1df3-4681-a35d-78db909c61e5" />
+<img width="1555" height="1253" alt="6" src="https://github.com/user-attachments/assets/5d7f20da-af36-4c32-9586-6879823f5c0b" />
 
 3. <b>The Pivot:</b> I reassigned the ticket to the **SysAdmins Department** and to <b>Jane Doe</b>.
+<img width="1557" height="1252" alt="7" src="https://github.com/user-attachments/assets/8a17bd32-5aad-47e3-896a-aec7b4835d90" />
+<img width="1552" height="1258" alt="8" src="https://github.com/user-attachments/assets/b0e7465d-e373-4b30-a5f8-63264533699f" />
+<img width="1549" height="1249" alt="9" src="https://github.com/user-attachments/assets/6709c5ee-7eb7-4420-98d0-a9bef87d3cf1" />
+<img width="1554" height="1263" alt="10" src="https://github.com/user-attachments/assets/2f2dd614-45c8-4d8d-be1c-71d4e07e6a6f" />
+<img width="1552" height="1253" alt="11" src="https://github.com/user-attachments/assets/cf09edbe-7928-400d-a476-a7874a4a4565" />
+<img width="1555" height="1270" alt="12" src="https://github.com/user-attachments/assets/bf7514b9-c704-458c-9ed5-3f04951b2746" />
 <img width="1397" height="1183" alt="10" src="https://github.com/user-attachments/assets/bf463df6-cceb-40c3-aa5d-5ea022752518" />
 
 4. <b>Key Learning:</b> This tested my **RBAC (Role-Based Access Control)** settings. As soon as I moved the ticket to a department I wasn't part of, I lost access to the record, exactly how a secure financial environment should function.
