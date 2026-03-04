@@ -63,8 +63,8 @@ The goal of this tutorial is to manage a full-service help desk environment in t
 
 
 <h2>Scenario 2: Departmental Software Request</h2>
-1. <b>The Issue:</b> A user requested an Adobe upgrade for the accounting team, stating that the current version was not working properly. <br>
-2. <b>My Action:</b> Since this was a routine software request, I assigned it a 4-hour SLA (Sev-B) and routed it to the Support department. <br>
+1. <b>The Issue:</b> A user ("Ken") requested an Adobe upgrade for the accounting team, stating that the current version was not working properly. <br>
+2. <b>My Action:</b> Since this was a routine software request, as agent ("John")I assigned it a 4-hour SLA (Sev-B) and routed it to the Support department. <br>
 3. <b>Resolution:</b> Due to having the correct permissions for the <b>Support</b> department, I handled the communication and closed the ticket once the software was verified. <br>
 
 <h2>Scenario 3: Executive Hardware Failure</h2>
