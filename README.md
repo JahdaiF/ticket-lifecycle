@@ -64,12 +64,27 @@ The goal of this tutorial is to manage a full-service help desk environment in t
 
 <h2>Scenario 2: Departmental Software Request</h2>
 1. <b>The Issue:</b> A user ("Ken") requested an Adobe upgrade for the accounting team, stating that the current version was not working properly. <br>
-2. <b>My Action:</b> Since this was a routine software request, as agent ("John")I assigned it a 4-hour SLA (Sev-B) and routed it to the Support department. <br>
+<img width="775" height="590" alt="Screenshot (1492)" src="https://github.com/user-attachments/assets/6ebe7932-1f73-4763-b726-501e0d1dc7bc" />
+
+2. <b>My Action:</b> Since this was a routine software request, as agent ("John") I assigned it a 4-hour SLA (Sev-B) and routed it to the Support department. <br>
+<img width="777" height="587" alt="Screenshot (1496)" src="https://github.com/user-attachments/assets/aab73b95-590e-4977-b135-c556d5a7f32c" />
+<img width="778" height="586" alt="Screenshot (1497)" src="https://github.com/user-attachments/assets/349f2983-1299-445f-a5ed-21c0fd15e973" />
+
 3. <b>Resolution:</b> Due to having the correct permissions for the <b>Support</b> department, I handled the communication and closed the ticket once the software was verified. <br>
+<img width="1560" height="1285" alt="Screenshot (1500)" src="https://github.com/user-attachments/assets/e0d51fad-91a9-454b-a059-7a56409147d7" />
+<img width="771" height="639" alt="Screenshot (1501)" src="https://github.com/user-attachments/assets/2016323f-38b6-4f97-bffa-b4cbe4e57639" />
+<img width="772" height="647" alt="Screenshot (1502)" src="https://github.com/user-attachments/assets/86eec3bb-d215-47fa-8789-f2c352385ea8" />
+
 
 <h2>Scenario 3: Executive Hardware Failure</h2>
 1. <b>The Issue:</b> There is a report that the CFO's laptop is no longer powering on. <br>
+<img width="775" height="643" alt="Screenshot (1503)" src="https://github.com/user-attachments/assets/0198d70f-70c9-43fe-b124-5c20fda5124c" />
+
 2. <b>Triage:</b> Even though it involved an executive, I followed standard hardware protocols. I assigned a <b>Sev-B SLA</b> and kept ownership of the ticket to coordinate the repair. <br>
+<img width="775" height="645" alt="Screenshot (1506)" src="https://github.com/user-attachments/assets/3b355c1d-14a4-4138-ae84-fae2d4210b25" />
+<img width="778" height="642" alt="Screenshot (1508)" src="https://github.com/user-attachments/assets/369c6b7e-2ab6-4b99-84cd-d4a018f7be2a" />
+<img width="1545" height="1280" alt="Screenshot (1510)" src="https://github.com/user-attachments/assets/2ee2ae38-1b86-4799-ab7e-dee7cf4b8ee9" />
+<img width="776" height="642" alt="Screenshot (1511)" src="https://github.com/user-attachments/assets/851f5525-f594-47b0-bc16-959d598a1837" />
 
 
 
